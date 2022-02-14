@@ -51,7 +51,7 @@ echo "b) ascending order sort by key";
 echo "<br>";
 ksort($courses3);
 foreach($courses3 as $course3_key => $course3_value) {
-    echo "Course:" . $course3_key . ", Value:" . $course_value3;
+    echo "Course:" . $course3_key . ", Value:" . $course3_value;
     echo "<br>";
   }
 echo "<br>";
@@ -59,7 +59,7 @@ echo "c) descending order sort by value";
 echo "<br>";
 arsort($courses3);
 foreach($courses3 as $course3_key => $course3_value) {
-    echo "Course:" . $course3_key . ", Value:" . $course_value3;
+    echo "Course:" . $course3_key . ", Value:" . $course3_value;
     echo "<br>";
   }
 echo "<br>";
@@ -67,7 +67,7 @@ echo "d) descending order sort by key";
 echo "<br>";
 krsort($courses3);
 foreach($courses3 as $course3_key => $course3_value) {
-    echo "Course:" . $course3_key . ", Value:" . $course_value3;
+    echo "Course:" . $course3_key . ", Value:" . $course3_value;
     echo "<br>";
   }
 
