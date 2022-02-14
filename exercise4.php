@@ -42,7 +42,7 @@ echo "<br>";
 $courses3=array("1"=>"PHP", "2"=>"HTML", "3"=>"JavaScript", "4"=>"CMS", "5"=>"Project");
 asort($courses3);
 foreach($courses3 as $course3_key => $course3_value) {
-    echo "Course:" . $course3_key . ", Value:" . $course_value3;
+    echo "Course:" . $course3_key . ", Value:" . $course3_value;
     echo "<br>";
   }
 
